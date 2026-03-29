@@ -11,7 +11,7 @@ import streamlit as st
 import random
 
 st.title('Test Streamlit')
-st.wrute('Hello World!')
+st.write('Hello World!')
 
 if st.button('Gennerate Randon Number'):
   random_munber = random_randint(1,100)
